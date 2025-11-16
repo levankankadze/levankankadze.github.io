@@ -2,11 +2,21 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Materials for courses you taught. Replace this text with your description.
+description: Overview of my teaching experience and course materials.
 nav: true
 nav_order: 6
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+## Current Courses
+None at the moment :) 
 
-Organize your courses by years, topics, or universities, however you like!
+## Past Courses
+
+### Fall 2022
+**Fundamentals of Physics** - Caucasus University 
+- This course was offered for Caucasus School of Technology (CST) students. It covered fundamental topics in mechanics, statics, electrostatics, and electrodynamics, along with selected topics from quantum physics.
+
+
+### 2016-2017
+**Physics Olympiad Preparation** - Komarovi School
+- I taught motivated young students advanced physics problem-solving techniques to prepare them for the Georgian National Physics Olympiad and, in the future, for the International Physics Olympiad (IPhO).
