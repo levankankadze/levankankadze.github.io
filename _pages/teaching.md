@@ -20,3 +20,12 @@ None at the moment :)
 ### 2016-2017
 **Physics Olympiad Preparation** - Komarovi School
 - I taught motivated young students advanced physics problem-solving techniques to prepare them for the Georgian National Physics Olympiad and, in the future, for the International Physics Olympiad (IPhO).
+
+## Additional Teaching Experience
+Over the years, I have taught hundreds of students in physics and mathematics, preparing them for:
+- Komarovi entrance exams
+- Physics Olympiads
+- International Baccalaureate (IB) exams
+- IGCSE exams
+- University entrance and internal exams
+- External standardized exams
