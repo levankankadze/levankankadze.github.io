@@ -14,7 +14,7 @@ None at the moment :)
 
 ### Fall 2022
 **Fundamentals of Physics** - Caucasus University 
-- This course was offered for Caucasus School of Technology (CST) students. It covered fundamental topics in mechanics, statics, electrostatics, and electrodynamics, along with selected topics from quantum physics.
+- This course was offered for Caucasus School of Technology (CST) students. It covered fundamental topics in mechanics, oscilations and wave phenomena, electrostatics, and electrodynamics, along with selected topics from quantum physics.
 
 
 ### 2016-2017
