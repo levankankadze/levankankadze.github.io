@@ -11,22 +11,21 @@
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: PhD in Accelerator Physics
+      institution: Sapienza University of Rome, Rome, Italy
+      year: 2017-2021
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - '<i>Dissertation: <a href="https://hdl.handle.net/11573/1558575" target="_blank">"Design And Optimization Of Radio-Frequency Pulse Compressor Systems For High Brightness Linacs"</a></i>'
+    - title: Master in Elementary Particle Physics
+      institution: Tbilisi State University, Tbilisi, Georgia
+      year: 2014-2016
       description:
-        - Description 1.
-        - Description 2.
+        - 'Towards The EDM Polarimetry - Test Run Results Of The Read-out Electronics With The Detector Modules'
+    - title: Bachelor's Degree
+      institution: Tbilisi State University, Tbilisi, Georgia
+      year: 2010-2014
+      description:
+  
 
 - title: Experience
   type: time_table
@@ -71,13 +70,16 @@
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2009
       items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
+        - Honorable Mention at the 41st International Physics Olympiad (Zagreb, Croatia)
+        - 1st Degree Diploma in Physics Georgian National Competition (Tbilisi, Georgia)
+    - year: 2008
       items:
-        - Max Planck Medal
+        - 1st Degree Diploma in Physics Georgian National Competition (Tbilisi, Georgia)
+    - year: 2007
+      items:
+        - 3rd Degree Diploma in Physics Georgian National Competition (Tbilisi, Georgia)
 
 - title: Academic Interests
   type: nested_list
