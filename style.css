@@ -1,6 +1,3 @@
-Failed to create stream fd: Operation not permitted
-Failed to create stream fd: Operation not permitted
-Failed to create stream fd: Operation not permitted
 :root { --ink:#28384b; --text:#182331; --blue:#2360ff; --muted:#6e7c8d; --band:#eeeeee; --line:#e0e3e6; --page:#fff; --card:#fff; }
 :root[data-theme="dark"] { --ink:#dbe7f3; --text:#e7edf4; --blue:#78a7ff; --muted:#aab7c5; --band:#18222d; --line:#354352; --page:#101821; --card:#16212c; }
 * { box-sizing:border-box; } html { scroll-behavior:smooth; } body { margin:0; color:var(--text); background:var(--page); font-family:Arial, Helvetica, sans-serif; font-size:16px; line-height:1.72; transition:background .2s,color .2s; }
