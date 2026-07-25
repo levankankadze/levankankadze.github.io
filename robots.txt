@@ -1,4 +1,0 @@
-User-agent: *
-Disallow:
-
-Sitemap: https://levankankadze.github.io/sitemap.xml
