@@ -40,8 +40,8 @@ Failed to create stream fd: Operation not permitted
         localStorage.setItem('theme', dark ? 'dark' : 'light');
         toggle.setAttribute('aria-pressed', String(dark));
       });
-      document.querySelectorAll('body *').forEach((element) => {
-        if (element.children.length === 0 && element.textContent.includes('Failed to create stream fd')) element.remove();
+      document.body.childNodes.forEach((node) => {
+        if (node.nodeType === Node.TEXT_NODE && node.textContent.includes('Failed to create stream fd')) node.remove();
       });
     </script>
   </body>
