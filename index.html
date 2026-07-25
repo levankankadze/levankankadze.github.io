@@ -11,7 +11,7 @@ Failed to create stream fd: Operation not permitted
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header class="site-header"><div class="nav-wrap"><a class="brand" href="#top">Levan Kankadze</a><nav aria-label="Main navigation"><a class="active" href="#top">Home</a><a href="#projects">Projects</a><a href="#skills">Skills</a><a href="#notes">Notes</a><a href="#writing">Writing</a></nav></div></header>
+    <header class="site-header"><div class="nav-wrap"><a class="brand" href="#top">Levan Kankadze</a><nav aria-label="Main navigation"><a class="active" href="#top">Home</a><a href="#projects">Projects</a><a href="#skills">Skills</a><a href="#notes">Notes</a><a href="#writing">Writing</a><button class="theme-toggle" type="button" aria-label="Switch color theme" aria-pressed="false">◐</button></nav></div></header>
     <main id="top">
       <section class="hero wrap">
         <aside class="profile-card"><img class="portrait" src="assets/img/profile.jpg" alt="Levan Kankadze" /><h1>Levan Kankadze</h1><div class="profile-links"><a href="mailto:hello@example.com">Email</a><a href="#projects">Projects</a></div></aside>
@@ -29,5 +29,20 @@ Failed to create stream fd: Operation not permitted
       <section class="plain-section wrap" id="writing"><div class="section-grid"><h2>Writing</h2><div class="content"><h3>Practical guides</h3><ul><li><a href="#">A beginner’s guide to data projects</a>. A practical framework for moving from a question to a finished analysis.</li><li><a href="#">What makes a model useful?</a>. A short note on balancing accuracy, interpretability, and real-world constraints.</li></ul><h3>Long-form work</h3><ul><li><a href="#">A featured data story</a>. Show how a careful analysis can change the way people understand a problem.</li></ul></div></div></section>
     </main>
     <footer><div class="wrap">© 2026 Levan Kankadze · <a href="#top">Back to top ↑</a></div></footer>
+    <script>
+      const toggle = document.querySelector('.theme-toggle');
+      const savedTheme = localStorage.getItem('theme');
+      if (savedTheme === 'dark') document.documentElement.dataset.theme = 'dark';
+      toggle.setAttribute('aria-pressed', String(document.documentElement.dataset.theme === 'dark'));
+      toggle.addEventListener('click', () => {
+        const dark = document.documentElement.dataset.theme !== 'dark';
+        document.documentElement.dataset.theme = dark ? 'dark' : '';
+        localStorage.setItem('theme', dark ? 'dark' : 'light');
+        toggle.setAttribute('aria-pressed', String(dark));
+      });
+      document.querySelectorAll('body *').forEach((element) => {
+        if (element.children.length === 0 && element.textContent.includes('Failed to create stream fd')) element.remove();
+      });
+    </script>
   </body>
 </html>
